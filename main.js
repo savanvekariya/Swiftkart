@@ -32,6 +32,6 @@ http.createServer(function(req,res)
     //   merger.add('3.pdf',); 
     //   await merger.save('merged.pdf'); //save under given name
     // })();
-
+console.log('Successfully worked')
 }).listen(8081);
 process.exit()
