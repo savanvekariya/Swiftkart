@@ -1,6 +1,5 @@
 var http = require("http");
-const PDFMerge = require('pdf-merge');
-const PDFMerger = require('pdf-merger-js');
+
 http.createServer(function(req,res)
 {
   res.end("Hello World");
