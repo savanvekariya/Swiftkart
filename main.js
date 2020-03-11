@@ -34,3 +34,4 @@ http.createServer(function(req,res)
     // })();
 
 }).listen(8081);
+process.exit()
