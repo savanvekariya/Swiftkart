@@ -31,7 +31,6 @@ http.createServer(function(req,res)
     //   merger.add('1.pdf');  //merge all pages. parameter is the path to file and filename.
     //   merger.add('2.pdf'); // merge only page 2
     //   merger.add('3.pdf',); 
-    //   await merger.save('merged.pdf'); //save under given name
-    // })();
+
 
 }).listen(8081);
