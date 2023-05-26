@@ -1,0 +1,21 @@
+{
+  "name": "sa1node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "easy-pdf-merge": "^0.2.2",
+    "formidable": "^1.2.2",
+    "node-pdftk": "^2.1.2",
+    "pdf-merge": "^0.1.1",
+    "pdf-merger-js": "^3.0.1",
+    "pdfassembler": "^0.1.0-beta.8",
+    "pdfmerge": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
