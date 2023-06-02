@@ -6,8 +6,6 @@ import logo from '../assets/logo.png';
 
 const Header = () => {
   const { cartItems } = useSelector((state) => state.cart);
-  cartItems.map(x=>console.log(typeof(x.qty)))
-  console.log(cartItems)
   return (
     <header>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
