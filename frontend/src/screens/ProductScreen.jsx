@@ -20,7 +20,7 @@ import { addToCart } from '../slices/cartSlice';
 const ProductScreen = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  
+
   const { id: productId } = useParams();
   const [qty, setQty] = useState(1);
 
@@ -31,6 +31,7 @@ const ProductScreen = () => {
   } = useGetProductDetailsQuery(productId);
 
   const addToCartHandler = () => {
+    console.log(typeof qty);
     dispatch(addToCart({ ...product, qty }));
     navigate('/cart');
   };
@@ -94,7 +95,7 @@ const ProductScreen = () => {
                           <Form.Control
                             as="select"
                             value={qty}
-                            onChange={(e) => setQty(e.target.value)}
+                            onChange={(e) => setQty(Number(e.target.value))}
                           >
                             {[...Array(product.countInStock).keys()].map(
                               (x) => (
