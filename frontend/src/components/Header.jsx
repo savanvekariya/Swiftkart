@@ -33,8 +33,8 @@ const Header = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              <img src={logo} alt="Proshop" />
-              ProShop
+              <img src={logo} alt="Swiftkart" />
+              Swiftkart
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
