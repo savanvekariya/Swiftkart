@@ -1,6 +1,6 @@
-# Proshop
+# Swiftkart
 
-Proshop is e-commerce web application build on the MERN stack using technologies like React, Redux, express etc. It is a full-featured shopping cart with PayPal & credit/debit payments.
+Swiftkart is e-commerce web application build on the MERN stack using technologies like React, Redux, express etc. It is a full-featured shopping cart with PayPal & credit/debit payments.
 
 ## Features
 
