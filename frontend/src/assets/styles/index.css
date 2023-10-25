@@ -51,3 +51,14 @@ table th {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
+#navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar-brand > h1 {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
